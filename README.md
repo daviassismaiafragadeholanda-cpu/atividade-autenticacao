@@ -114,3 +114,6 @@ O código do front-end roda no navegador do usuário, que pode alterá-lo ou sim
 
 **7. Qual é a diferença entre autenticação e autorização?**
 Autenticação é provar quem você é, por exemplo com e-mail e senha. Autorização é definir o que essa pessoa pode fazer ou ver depois de identificada. Neste projeto, o Supabase Auth faz a autenticação, e as rotas protegidas e as políticas RLS fazem a autorização. Estar logado não basta: sem uma política que permita a leitura, a tabela não devolve nada.
+
+minha .env VITE_SUPABASE_URL=https://qskgsenjnxakxrkcbxaa.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_nTPE-r8VFDAfkWLcjWJxWw_0lcJagT4
